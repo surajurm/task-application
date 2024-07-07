@@ -1,3 +1,5 @@
+Building a simple task management application using Django Python Framework
+ 
 Clone source code from git repository
 
 	git clone https://github.com/surajurm/task-application
