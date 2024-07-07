@@ -1,21 +1,22 @@
-
-Installation Steps:
-
-
-	pull source code from git 
+Clone source code from git repository
 
 	git clone https://github.com/surajurm/task-application
 
-	git checkout master
-	
-	pip install -r /path/to/requirements.txt
+	git checkout origin/master
 
- 	cd taskmanager
+Install application using requirement files
+ 
+	pip install -r requirements.txt
 	
-  Creating database schema and migrate table
+Creating database schema and migrate table
  	
 	python manage.py makemigrations
 	python manage.py migrate
 
-  Run Application
+Run Application
+  
 	python manage.py runserver
+ 
+Access Application on browser using below URL
+
+	http://localhost:8000/
