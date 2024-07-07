@@ -2,6 +2,8 @@ Clone source code from git repository
 
 	git clone https://github.com/surajurm/task-application
 
+  	cd task-application
+
 	git checkout origin/master
 
 Install application using requirement files
